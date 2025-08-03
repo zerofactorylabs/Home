@@ -17,7 +17,7 @@ const caseStudies: CaseStudy[] = [
     description: 'Comprehensive incident response and forensic investigation following a sophisticated cyber attack on a major financial institution.',
     industry: 'Finance',
     services: ['Digital Forensics', 'Incident Response', 'Threat Intelligence'],
-    image: 'https://images.pexels.com/photos/7078651/pexels-photo-7078651.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: 'https://i.postimg.cc/qqZsnQT0/Investigations.png'
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const caseStudies: CaseStudy[] = [
     description: 'Design and implementation of a zero-trust security architecture for a healthcare provider with 50+ locations.',
     industry: 'Healthcare',
     services: ['Security Architecture', 'Compliance', 'Risk Assessment'],
-    image: 'https://images.pexels.com/photos/6131184/pexels-photo-6131184.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: 'https://i.postimg.cc/Bb3ykSLt/Whatsapp-Train-NYpwnft-Zeroday.png'
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const caseStudies: CaseStudy[] = [
     description: 'Securing operational technology and industrial control systems for a global manufacturing firm.',
     industry: 'Manufacturing',
     services: ['OT/ICS Security', 'Penetration Testing', 'Security Monitoring'],
-    image: 'https://images.pexels.com/photos/2556957/pexels-photo-2556957.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: 'https://i.postimg.cc/fyHKCDYG/Whatsapp-Iot-Pwn-Zdg.png'
   }
 ];
 
@@ -46,7 +46,7 @@ const CaseStudies: React.FC = () => {
       
       <div className="container-custom relative">
         <div className="section-title">
-          <span className="text-secondary text-lg font-mono mb-2">03. Our Work</span>
+          <span className="text-secondary text-lg font-mono mb-2">Our Work</span>
           <h2 className="text-4xl font-bold mb-2">Case Studies</h2>
           <p className="text-text-secondary max-w-2xl mt-6">
             Explore our successful cybersecurity engagements and see how we've helped organizations

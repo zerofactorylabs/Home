@@ -17,7 +17,7 @@ const team: TeamMember[] = [
   {
     name: 'Petter Han',
     role: 'Chief Security Officer',
-    image: 'https://i.postimg.cc/W4wcf8MV/605ddd0d58d07118d6a6a5befb99f504d0f3dbd17377ad2da034d517b5a69ea6.png',
+    image: 'https://i.postimg.cc/gk0B1Btz/Copy-of-Colorful-Simple-Vlogger-Youtube-Profile-Picture-4.png',
     bio: 'Former military intelligence officer with 15+ years of cybersecurity experience specializing in threat intelligence and security strategy.',
     social: {
       linkedin: '#',
@@ -38,7 +38,7 @@ const team: TeamMember[] = [
   {
     name: 'Thomas Andri Hutomo',
     role: 'Lead Penetration Tester',
-    image: 'https://i.postimg.cc/1t14DvyZ/and.png',
+    image: 'https://i.postimg.cc/gk0B1Btz/Copy-of-Colorful-Simple-Vlogger-Youtube-Profile-Picture-4.png',
     bio: 'Ethical hacker specializing in red team operations, web application security, and cloud infrastructure testing.',
     social: {
       linkedin: 'https://www.linkedin.com/in/securewithandri/',
@@ -48,7 +48,7 @@ const team: TeamMember[] = [
   {
     name: 'Sukirno Adi Sampurno',
     role: 'Security Architecture Lead',
-    image: 'https://i.postimg.cc/W4wcf8MV/605ddd0d58d07118d6a6a5befb99f504d0f3dbd17377ad2da034d517b5a69ea6.png',
+    image: 'https://i.postimg.cc/gk0B1Btz/Copy-of-Colorful-Simple-Vlogger-Youtube-Profile-Picture-4.png',
     bio: 'Expert in designing zero-trust architectures, cloud security, and secure development practices.',
     social: {
       linkedin: '#',
@@ -65,7 +65,7 @@ const TeamSection: React.FC = () => {
       
       <div className="container-custom relative">
         <div className="section-title">
-          <span className="text-secondary text-lg font-mono mb-2">04. Our Experts</span>
+          <span className="text-secondary text-lg font-mono mb-2">Our Experts</span>
           <h2 className="text-4xl font-bold mb-2">Meet The Team</h2>
           <p className="text-text-secondary max-w-2xl mt-6">
             Our team of certified security professionals combines deep technical expertise with practical

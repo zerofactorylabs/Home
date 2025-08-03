@@ -19,7 +19,7 @@ const stats: Stat[] = [
   },
   {
     icon: <Shield size={36} />,
-    value: 10000,
+    value: 9800,
     label: 'Security Assessments',
     suffix: '+',
     delay: 300

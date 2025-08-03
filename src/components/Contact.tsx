@@ -65,7 +65,7 @@ const ContactForm: React.FC = () => {
       
       <div className="container-custom relative">
         <div className="section-title">
-          <span className="text-secondary text-lg font-mono mb-2">06. Get In Touch</span>
+          <span className="text-secondary text-lg font-mono mb-2">Get In Touch</span>
           <h2 className="text-4xl font-bold mb-2">Contact Us</h2>
           <p className="text-text-secondary max-w-2xl mt-6">
             Have a security concern or want to learn more about our services? Our team is ready to assist you.
@@ -84,7 +84,7 @@ const ContactForm: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email Us</h4>
-                    <p className="text-text-secondary">business@zerodayresearch.org</p>
+                    <p className="text-text-secondary">business@opzero.id</p>
                   </div>
                 </div>
                 
@@ -104,8 +104,8 @@ const ContactForm: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Visit Us</h4>
-                    <p className="text-text-secondary">1234 Cyber Avenue, Suite 500</p>
-                    <p className="text-text-secondary">San Francisco, CA 94105</p>
+                    <p className="text-text-secondary">Gandaria 8 Office Tower, Suite Lt30 - 𝗣𝗪𝗡 𝗚𝗥𝗢𝗨𝗣𝗦</p>
+                    <p className="text-text-secondary">South Jakarta, ID 12240</p>
                   </div>
                 </div>
               </div>

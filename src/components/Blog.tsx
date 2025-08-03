@@ -15,33 +15,39 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     id: 1,
-    title: 'The Evolving Threat Landscape of Ransomware in 2025',
-    excerpt: 'An analysis of emerging ransomware trends and effective mitigation strategies for organizations.',
-    date: 'May 12, 2025',
-    readTime: '8 min read',
-    author: 'Alex Chen',
-    category: 'Threat Intelligence',
-    image: 'https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    title: 'Arbitrary Command Injection Kubernetes Headlamp macOS Process codeSign',
+    excerpt: 'A command injection vulnerability was discovered in the codeSign.js script used in the macOS packaging workflow of the Kubernetes Headlamp project. This issue arises due to the improper use of Node.js `execSync()` function with unsanitized input derived from environment variables, which can be influenced by an attacker.',
+    date: 'May 28, 2025',
+    author: 'CVE-2025-53542',
+    category: '0DAY',
+    image: 'https://i.postimg.cc/KvHKZd00/GHSA-34rf-485x-g5h7.png'
   },
   {
     id: 2,
-    title: 'Securing Cloud-Native Applications: Best Practices',
-    excerpt: 'Key strategies for implementing security throughout the development lifecycle of cloud-native applications.',
+    title: 'Remote Code Execution in New Relic Ruby Agent',
+    excerpt: 'A critical remote code execution vulnerability was discovered in New Relic Ruby Agent’s JSON marshaller component. The vulnerability allows attackers to execute arbitrary code by exploiting unsafe deserialization of untrusted data through the agent’s metrics collection system.',
     date: 'April 28, 2025',
-    readTime: '10 min read',
-    author: 'Emma Rodriguez',
+    author: 'ruby-agent < 8.17.0',
     category: 'Cloud Security',
-    image: 'https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    image: 'https://i.postimg.cc/MGV2cQqn/newrelic-ruby-agent.png'
   },
   {
     id: 3,
-    title: 'Digital Forensics in the Age of AI: Challenges and Solutions',
-    excerpt: 'How artificial intelligence is changing the landscape of digital forensics and incident response.',
+    title: 'Path Traversal pyload-ng via json Endpoint allows Arbitrary File Write ',
+    excerpt: 'An authenticated path traversal vulnerability exists in the `/json/upload` endpoint of the `pyLoad` By manipulating the filename of an uploaded file, an attacker can traverse out of the intended upload directory, allowing them to write arbitrary files to any location on the system accessible to the pyLoad process.',
     date: 'April 15, 2025',
-    readTime: '7 min read',
-    author: 'Sarah Johnson',
-    category: 'Digital Forensics',
-    image: 'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    author: 'CVE-2025-54140',
+    category: '0DAY',
+    image: 'https://i.postimg.cc/vB0PDYg1/GHSA-xqpg-92fq-grfg.png'
+  },
+  {
+    id: 4,
+    title: 'Thor can construct an unsafe shell command from library input (Path Traversal ZS)',
+    excerpt: 'Thor before 1.4.0 can construct an unsafe shell command from library input. Allows attackers to execute arbitrary system commands by manipulating input passed to Thor utility methods. ',
+    date: 'Febuary 28, 2025',
+    author: 'CVE-2025-54314',
+    category: '0DAY',
+    image: 'https://i.postimg.cc/ZYdWHfHg/thor.png'
   }
 ];
 
@@ -52,7 +58,7 @@ const Blog: React.FC = () => {
       
       <div className="container-custom relative">
         <div className="section-title">
-          <span className="text-secondary text-lg font-mono mb-2">05. Latest Insights</span>
+          <span className="text-secondary text-lg font-mono mb-2">Latest Insights</span>
           <h2 className="text-4xl font-bold mb-2">Security Blog</h2>
           <p className="text-text-secondary max-w-2xl mt-6">
             Stay informed with our latest research, security advisories, and industry insights.
@@ -97,7 +103,7 @@ const Blog: React.FC = () => {
                 <h3 className="font-bold text-xl mb-3 line-clamp-2">{post.title}</h3>
                 <p className="text-text-secondary text-sm mb-4 line-clamp-3">{post.excerpt}</p>
                 
-                <a href="#" className="text-secondary text-sm font-medium flex items-center hover:underline">
+                <a href="https://advisory.zerodaysec.org" className="text-secondary text-sm font-medium flex items-center hover:underline">
                   Read Article 
                   <ArrowRight size={16} className="ml-1" />
                 </a>

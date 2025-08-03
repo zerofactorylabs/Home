@@ -32,7 +32,7 @@ const About: React.FC = () => {
           
           <div className="space-y-8">
             <div className="section-title">
-              <span className="text-secondary text-lg font-mono mb-2">02. Who We Are</span>
+              <span className="text-secondary text-lg font-mono mb-2">Who We Are</span>
               <h2 className="text-4xl font-bold mb-2">Elite Cybersecurity Experts</h2>
             </div>
             
